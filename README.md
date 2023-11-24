@@ -1,5 +1,5 @@
 
-# ReadMe для проекта "TodoList-React"
+# Readme для проекта "TodoList-React"
 
 ### Описание
 Для чего нужен to do list?

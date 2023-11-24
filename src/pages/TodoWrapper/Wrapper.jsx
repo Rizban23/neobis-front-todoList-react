@@ -3,7 +3,7 @@ import './Wrapper.css';
 import TodoList from '../../components/todoList/TodoList';
 
 function Wrapper() {
-    const [editableText, setEditableText] = useState('Rizban');
+    const [editableText, setEditableText] = useState('Name here');
     const [category, setCategory] = useState('personal');
     const [textTodo, setTextTodo] = useState('');
     const [id, setId] = useState(1);
@@ -103,7 +103,7 @@ function Wrapper() {
                     />
                 ))
             ) : (
-                <div className="main__todoText">
+                <div className="wrapper__todoText">
                     
                 </div>
             )}
@@ -111,4 +111,4 @@ function Wrapper() {
     );
 }
 
-export default Wrapper
+export default Wrapper;
