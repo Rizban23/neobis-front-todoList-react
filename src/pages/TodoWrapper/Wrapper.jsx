@@ -40,22 +40,22 @@ function Wrapper() {
 
     return (
         <div className="container">
-            <h1 className="main__title">
+            <h2 className="wrapper__title">
                 What's up,{' '}
-                <span className="main__title edit">
+                <span className="wrapper__title edit">
                     <input
-                        className="main__titleInput"
+                        className="wrapper__titleInput"
                         type="text"
                         value={editableText}
                         onChange={(e) => setEditableText(e.target.value)}
                     />
                 </span>
-            </h1>
-            <p className="main__description">CREATE A TODO</p>
+            </h2>
+            <p className="wrapper__description">CREATE A TODO</p>
 
-            <h3 className="main__todoText">What's on your todo list?</h3>
+            <h3 className="wrapper__todoText">What's on your todo list?</h3>
             <input
-                className="main__todoInput"
+                className="wrapper__todoInput"
                 type="text"
                 placeholder="e.g. get a milk"
                 value={textTodo}
@@ -103,8 +103,8 @@ function Wrapper() {
                     />
                 ))
             ) : (
-                <div className="main__todoText f-size">
-                    The task list is empty
+                <div className="main__todoText">
+                    
                 </div>
             )}
         </div>

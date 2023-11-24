@@ -1,20 +1,25 @@
-
-.main__title .edit {
+.wrapper__titleInput {
+    outline: none;
+    border: none;
+    font-size: 26px;
+    font-weight: 600;
+}
+.wrapper__title .edit {
     border: none;
     outline: none;
 }
-.main__title {
+.wrapper__title {
     margin: 40px 0 20px;
     color: #272542;
 }
-.main__description{
-    margin: 20px 0 10px;
+.wrapper__description{
+    margin: 15px 0 8px;
     color: #48465C;
 }
-.main__todoText {
+.wrapper__todoText {
     color: #7D7D7C;
 }
-.main__todoInput {
+.wrapper__todoInput {
     width: 100%;
     height: 50px;
     padding: 10px 20px;
@@ -147,12 +152,7 @@ input:checked ~ .radio-btn::after{
 .f-size {
     font-size: 20px;
 }
-.main__titleInput {
-    outline: none;
-    border: none;
-    font-size: 32px;
-    font-weight: 600;
-}
+
 
 
 
