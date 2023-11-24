@@ -1,10 +1,10 @@
 import React from "react";
-import MainPage from "./pages/mainPage/MainPage";
 import '../src/index.css'
+import Wrapper from "./pages/TodoWrapper/Wrapper";
 function App() {
   return (
       <div className="App">
-        <MainPage/>
+        <Wrapper/>
       </div>
   );
 }

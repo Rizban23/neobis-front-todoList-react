@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import '../mainPage/mainPage.css';
+import './Wrapper.css';
 import TodoList from '../../components/todoList/TodoList';
 
-function MainPage() {
+function Wrapper() {
     const [editableText, setEditableText] = useState('Rizban');
     const [category, setCategory] = useState('personal');
     const [textTodo, setTextTodo] = useState('');
@@ -111,4 +111,4 @@ function MainPage() {
     );
 }
 
-export default MainPage;
+export default Wrapper
